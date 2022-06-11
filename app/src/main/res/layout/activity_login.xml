@@ -24,7 +24,7 @@
         android:orientation="vertical">
 
     <EditText
-        android:id="@+id/txtUser"
+        android:id="@+id/textPUserName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="User Name"
@@ -32,7 +32,7 @@
         android:textSize="18sp"/>
 
     <EditText
-        android:id="@+id/txtPass"
+        android:id="@+id/textPPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"

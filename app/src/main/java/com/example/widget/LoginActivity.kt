@@ -16,7 +16,7 @@ class LoginActivity : AppCompatActivity() {
 
         binding.btnLogin.setOnClickListener {
 
-            val dataLogin = ModelLogin(binding.txtUser.text.toString(), binding.txtPass.text.toString())
+            val dataLogin = ModelLogin(binding.textPUserName.text.toString(), binding.textPPassword.text.toString())
             val intent = Intent(this, MainActivity::class.java)
             intent.putExtra("data", dataLogin)
             startActivity(intent)
